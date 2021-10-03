@@ -1,17 +1,15 @@
 .topnav {
     background-color: black;
     overflow: hidden;
-    text-align: center
-
-
+    text-align: center;
 }
 
 .topnav a {
     color: red;
     text-decoration: none;
     font-size: 17px;
-    padding: 44px;
-    margin: 6px;
+    padding: 40px;
+    margin: 15px,15px;
     line-height: 3;   
 }
 
@@ -31,7 +29,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 75%;
-    height: auto;
 }
 
 body, html {
@@ -40,7 +37,6 @@ body, html {
 
 .hero-image {
     text-align: center;
-    overflow: hidden;
 }
 
 .responsive{
@@ -49,19 +45,3 @@ body, html {
 
 }
 
-#the-eye {
-    background-image: url(images/mount-doom.gif);
-    background-repeat: no-repeat;
-    background-size: 100% 100%
-}
-
-#the-eye h1 {
-    color: lightgray;
-    padding: 10px;
-    margin: auto;
-}
-
-#tolkien h3 {
-    color: white;
-    text-align: center;
-}
