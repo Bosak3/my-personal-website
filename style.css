@@ -68,7 +68,49 @@ body, html {
 }
 
 #the-eye p {
+    opacity: .8;
     color: white;
     text-align: center;
     text-size-adjust: 30px;
+}
+
+#author {
+    width: 15%;
+    overflow: hidden;
+    float: left;
+}
+
+#the-eye p:hover{
+    opacity: 1.0;
+}
+
+h1 {
+    size: 20px;
+    text-align: center;
+    color: lightgray;
+    padding: 10px;
+    margin: auto;
+}
+
+.cards {
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    float: left;
+
+}
+
+#books {
+    width: 100%;
+    height: 100%;
+
+}
+
+#scroll-background {
+    background-image: url(images/scroll.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
