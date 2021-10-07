@@ -35,10 +35,6 @@ body {
     height: auto;
 }
 
-body, html {
-    height: 100%;
-}
-
 .hero-image {
     text-align: center;
     overflow: hidden;
@@ -84,7 +80,7 @@ body, html {
     opacity: 1.0;
 }
 
-h1 {
+h1, h2 {
     size: 20px;
     text-align: center;
     color: lightgray;
@@ -95,7 +91,7 @@ h1 {
 .cards {
     color: white;
     text-align: center;
-    padding: 35px;
+    padding: 30px;
     margin: auto;
     float: left;
 
@@ -108,9 +104,46 @@ h1 {
 }
 
 #scroll-background {
-    background-image: url(images/scroll.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
+
+.card {
+    line-height: 200px;
+    width: 200px;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+td img{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: sticky;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+
+}
+
+
+
+
