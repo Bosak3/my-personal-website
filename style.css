@@ -64,16 +64,25 @@ body {
 }
 
 #the-eye p {
+    display: block;
     opacity: .8;
     color: white;
-    text-align: center;
-    text-size-adjust: 30px;
+    text-size-adjust: 50px;
+    text-align: center
+    
 }
 
 #author {
-    width: 15%;
-    overflow: hidden;
+    display: block;
     float: left;
+    overflow: hidden;
+    padding: 10px;
+    width: 11%;
+    opacity: .8;
+}
+
+#author:hover{
+    opacity: 1.0;
 }
 
 #the-eye p:hover{
@@ -120,7 +129,7 @@ td {
 }
 
 td img{
-    overflow: hidden;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 
@@ -136,6 +145,7 @@ table {
 footer {
     position: sticky;
     overflow: hidden;
+    background-image: url("images/footer_background.jpeg");
     bottom: 0;
     width: 100%;
     background-color: black;
@@ -144,6 +154,13 @@ footer {
 
 }
 
-
+div {
+    width: 100% 
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
 
 
